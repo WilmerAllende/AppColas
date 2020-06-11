@@ -1,0 +1,53 @@
+<table>
+  <tr>
+    <td valign="middle" class="ticket-actual">
+      <span id="lblTicket1" class="ticket-actual-numero"
+        >Ticket {{ tickets.length > 0 ? tickets[0].codigo : "" }}</span
+      >
+      <br />
+      <span id="lblEscritorio1" class="ticket-actual-escritorio"
+        >Escritorio {{ tickets.length > 0 ? tickets[0].escritorio : "" }}</span
+      >
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>
+            <span id="lblTicket2" class="ticket-secundario"
+              >Ticket {{ tickets.length > 1 ? tickets[1].codigo : "" }}</span
+            >
+            <br />
+            <span id="lblEscritorio2"
+              >Escritorio
+              {{ tickets.length > 1 ? tickets[1].escritorio : "" }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span id="lblTicket3" class="ticket-secundario"
+              >Ticket {{ tickets.length > 2 ? tickets[2].codigo : "" }}</span
+            >
+            <br />
+            <span id="lblEscritorio3"
+              >Escritorio
+              {{ tickets.length > 2 ? tickets[2].escritorio : "" }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span id="lblTicket4" class="ticket-secundario"
+              >Ticket {{ tickets.length > 3 ? tickets[3].codigo : "" }}</span
+            >
+            <br />
+            <span id="lblEscritorio4"
+              >Escritorio
+              {{ tickets.length > 3 ? tickets[3].escritorio : "" }}</span
+            >
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
